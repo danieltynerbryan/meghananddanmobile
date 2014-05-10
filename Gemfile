@@ -7,6 +7,10 @@ gem 'rails', '3.2.16'
 
 gem 'pg'
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
 gem 'ratchet-rails'
 
 # Gems used only for assets and not required

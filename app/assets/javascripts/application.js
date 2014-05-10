@@ -13,4 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require ratchet
-//= require_tree .
+//= require_tree

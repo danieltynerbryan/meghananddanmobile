@@ -1,20 +1,22 @@
-<ul class="list inset">
-	<li>
-		<a href="<%= wedding_party_path %>">
-		  <strong>Meghan and Dan</strong>
-		  <span class="chevron"></span>
-		</a>
-	</li>
-	<li>
-		<a href="<%= wedding_party_path %>" data-transition="fade">
-		  <strong>Wedding Party</strong>
-		  <span class="chevron"></span>
-		</a>
-	</li>
-	<li>
-		<a href="<%= wedding_party_path %>">
-		  <strong>Venue</strong>
-		  <span class="chevron"></span>
-		</a>
-	</li>
-</ul>
+<h1 class="center">Weddng Extravaganza</h1>
+
+<div class="card">
+	<ul class="table-view">
+	  <li class="table-view-cell">
+	    <a class="navigate-right" href="<%= md_path %>" data-transition="slide-in">
+	      <strong>Meghan and Dan</strong>
+	    </a>
+	  </li>
+	  <li class="table-view-cell">
+	    <a class="navigate-right" href="<%= venue_path %>" data-transition="slide-in">
+	      <strong>Venue</strong>
+	    </a>
+	  </li>
+	  <li class="table-view-cell">
+	    <a class="navigate-right" href="<%= wedding_party_path %>" data-transition="slide-in">
+	      <strong>Wedding Party</strong>
+	    </a>
+	  </li>
+	</ul>
+</div>
+
