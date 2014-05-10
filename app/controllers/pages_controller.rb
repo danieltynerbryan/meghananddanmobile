@@ -10,4 +10,13 @@ class PagesController < ApplicationController
   
   def md
   end
+  
+  def groomsmen
+  end
+  
+  def bridesmaids
+  end
+  
+  def officiant
+  end
 end
