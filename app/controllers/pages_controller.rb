@@ -19,4 +19,7 @@ class PagesController < ApplicationController
   
   def officiant
   end
+  
+  def schedule
+  end
 end

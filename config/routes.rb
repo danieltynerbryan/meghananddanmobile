@@ -6,4 +6,5 @@ Meghananddanmobile::Application.routes.draw do
   match '/officiant',   to: 'pages#officiant', as: 'officiant'
   match '/venue',   to: 'pages#venue', as: 'venue'
   match '/md', to: 'pages#md', as: 'md'
+  match '/schedule', to: 'pages#schedule', as: 'schedule'
 end

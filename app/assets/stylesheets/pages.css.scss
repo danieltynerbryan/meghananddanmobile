@@ -21,19 +21,12 @@ header {
 .content {
 	padding-bottom: 50px;
 }
-.img-frame {
-	border: 1px solid #ddd;
-	border-radius: 6px;
-	width: 100%;
+.card {
 	img {
 		width: 100%;
-		border-radius: 6px;
 		margin-bottom: -5px !important;
 	}
 }
 p.bio {
-	color: #333;
-	font-weight: normal;
-	font-size: 18px;
 	margin-top: 10px;
 }
