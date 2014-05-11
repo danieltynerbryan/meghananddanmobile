@@ -2,6 +2,10 @@
 	background-color: #abc7b9 !important;
 	background-image: none !important;
 	border-bottom: 1px solid #ddd !important;
+	h1 {
+		color: #fff;
+		font-weight: bold;
+	}
 }
 .center {
 	text-align: center;
@@ -16,4 +20,20 @@ header {
 }
 .content {
 	padding-bottom: 50px;
+}
+.img-frame {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	width: 100%;
+	img {
+		width: 100%;
+		border-radius: 6px;
+		margin-bottom: -5px !important;
+	}
+}
+p.bio {
+	color: #333;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 10px;
 }
