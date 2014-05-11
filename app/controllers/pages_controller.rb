@@ -40,4 +40,7 @@ class PagesController < ApplicationController
   
   def ryan
   end
+  
+  def guestbook
+  end
 end

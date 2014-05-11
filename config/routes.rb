@@ -10,4 +10,5 @@ Meghananddanmobile::Application.routes.draw do
   match '/kelly', to: 'pages#kelly', as: 'kelly'
   match '/breanne', to: 'pages#breanne', as: 'breanne'
   match '/becky', to: 'pages#becky', as: 'becky'
+  match '/guestbook', to: 'pages#guestbook', as: 'guestbook'
 end
