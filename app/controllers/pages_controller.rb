@@ -22,4 +22,22 @@ class PagesController < ApplicationController
   
   def schedule
   end
+  
+  def kelly
+  end
+  
+  def breanne
+  end
+  
+  def becky
+  end
+  
+  def ben
+  end
+  
+  def dilyan
+  end
+  
+  def ryan
+  end
 end
