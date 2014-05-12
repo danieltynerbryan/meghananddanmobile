@@ -1,5 +1,5 @@
 Meghananddanmobile::Application.routes.draw do
-  root :to => 'pages#home'
+  root :to => 'pages#enter'
   match '/weddingparty',   to: 'pages#wedding_party', as: 'wedding_party'
   match '/groomsmen',   to: 'pages#groomsmen', as: 'groomsmen'
   match '/bridesmaids',   to: 'pages#bridesmaids', as: 'bridesmaids'
@@ -11,4 +11,5 @@ Meghananddanmobile::Application.routes.draw do
   match '/breanne', to: 'pages#breanne', as: 'breanne'
   match '/becky', to: 'pages#becky', as: 'becky'
   match '/guestbook', to: 'pages#guestbook', as: 'guestbook'
+  match '/home', to: 'pages#home', as: 'home'
 end

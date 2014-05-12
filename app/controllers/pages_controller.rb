@@ -43,4 +43,7 @@ class PagesController < ApplicationController
   
   def guestbook
   end
+  
+  def enter
+  end
 end
