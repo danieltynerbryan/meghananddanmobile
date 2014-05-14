@@ -42,6 +42,8 @@ class PagesController < ApplicationController
   end
   
   def guestbook
+  	@messages = Message.all
+  	@message = Message.new
   end
   
   def enter

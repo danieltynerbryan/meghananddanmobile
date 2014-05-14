@@ -1,4 +1,7 @@
 Meghananddanmobile::Application.routes.draw do
+  resources :messages
+
+
   root :to => 'pages#enter'
   match '/weddingparty',   to: 'pages#wedding_party', as: 'wedding_party'
   match '/groomsmen',   to: 'pages#groomsmen', as: 'groomsmen'
