@@ -24,24 +24,28 @@
 	
 		<%= yield %>
 		
-		<nav class="bar bar-tab">
-		  <a class="tab-item active" href="<%= home_path %>" data-transition="fade">
-		    <span class="icon icon-home"></span>
-		    <span class="tab-label">Home</span>
-		  </a>
-		  <a class="tab-item active" href="<%= guestbook_path %>" data-transition="fade">
-		    <span class="icon icon-compose"></span>
-		    <span class="tab-label">Guest Book</span>
-		  </a>
-		  <a class="tab-item active" href="<%= wedding_party_path %>" data-transition="fade">
-		    <span class="icon icon-person"></span>
-		    <span class="tab-label">Wedding Party</span>
-		  </a>
-		  <a class="tab-item active" href="<%= schedule_path %>" data-transition="fade">
-		    <span class="icon icon-info"></span>
-		    <span class="tab-label">Schedule</span>
-		  </a>
-		</nav>
+		<% unless @no_bar %>
+		
+			<nav class="bar bar-tab">
+			  <a class="tab-item active" href="<%= home_path %>" data-transition="fade">
+			    <span class="icon icon-home"></span>
+			    <span class="tab-label">Home</span>
+			  </a>
+			  <a class="tab-item active" href="<%= guestbook_path %>" data-transition="fade">
+			    <span class="icon icon-compose"></span>
+			    <span class="tab-label">Guest Book</span>
+			  </a>
+			  <a class="tab-item active" href="<%= wedding_party_path %>" data-transition="fade">
+			    <span class="icon icon-person"></span>
+			    <span class="tab-label">Wedding Party</span>
+			  </a>
+			  <a class="tab-item active" href="<%= schedule_path %>" data-transition="fade">
+			    <span class="icon icon-info"></span>
+			    <span class="tab-label">Schedule</span>
+			  </a>
+			</nav>
+			
+		<% end %>
 	  
 	</body>
 

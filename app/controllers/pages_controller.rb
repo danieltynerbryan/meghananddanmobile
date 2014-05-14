@@ -45,5 +45,6 @@ class PagesController < ApplicationController
   end
   
   def enter
+  	@no_bar = true;
   end
 end
