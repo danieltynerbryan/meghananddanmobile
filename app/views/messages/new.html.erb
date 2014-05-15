@@ -1,5 +1,14 @@
-<h1>New message</h1>
+<header class="bar bar-nav">
+	<a class="btn btn-outlined pull-left" href="<%= guestbook_path %>" data-transition="slide-out">
+		Back
+	</a>
+	<h1 class="title">Meghan and Dan</h1>
+</header>
 
-<%= render 'form' %>
+<div class="content">
+	<div class="content-padded">
+		<h1 class="center">Guest Book</h1>
+		<%= render 'form' %>
+	</div>
+</div>
 
-<%= link_to 'Back', messages_path %>
