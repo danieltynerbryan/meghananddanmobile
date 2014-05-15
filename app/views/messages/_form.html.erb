@@ -1,7 +1,7 @@
 <%= form_for(@message) do |f| %>
 
 	<%= f.text_field :name, :placeholder => 'From', :required => true %>
-    <%= f.text_area :message, :rows => 20, :placeholder => 'Message', :required => true %>
+    <%= f.text_area :message, :rows => 10, :placeholder => 'Message', :required => true %>
     <button class="btn btn-custom btn-block" >Post</button>
     
 <% end %>
